@@ -7,18 +7,10 @@ $(document).ready(function() {
       top: e.pageY
     });
   })
-
 })
 
 $(document).ready(function(){
-$("div").click(function(){
-  $("h1").addClass("show3");
-});
-})
-
-
-$(document).ready(function(){
-   let counter = 2;
+   let counter = 1;
 
     $(".box").click(function () {
     counter++;
@@ -26,3 +18,4 @@ $(document).ready(function(){
     $("h3:nth-child(" + counter + ")").css("opacity", "1");
     });
 })
+
