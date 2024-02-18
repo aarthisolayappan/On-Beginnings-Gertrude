@@ -38,7 +38,7 @@ $(document).ready(function(){
   })
   
   $(document).ready(function(){
-    const myTimeout = setTimeout(Writing, 6100);
+    const myTimeout = setTimeout(Writing, 8100);
   
     function Writing() {
       document.getElementById("start").innerHTML = "start"

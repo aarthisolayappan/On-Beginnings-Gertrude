@@ -50,6 +50,7 @@ $(document).ready(function(){
           }, 750);
           }  })
 
+          
 
 $(document).ready(function(){
    let counter = 5;
@@ -60,3 +61,4 @@ $(document).ready(function(){
     $("h3:nth-child(" + counter + ")").css("opacity", "1");
     });
 })
+
