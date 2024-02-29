@@ -69,7 +69,7 @@ $(document).ready(function() {
     const myTimeout = setTimeout(Reading, 8000);
   
     function Reading() {
-      document.getElementById("show7").innerHTML = "_-"
+      document.getElementById("show7").innerHTML = "]"
     }
   })
 

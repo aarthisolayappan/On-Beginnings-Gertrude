@@ -10,7 +10,7 @@ $(document).ready(function() {
 })
 
 $(document).ready(function(){
-  const myTimeout = setTimeout(Reading, 2000);
+  const myTimeout = setTimeout(Reading, 500);
 
   function Reading() {
     document.getElementById("show").innerHTML = "if you're ready, start reading"
@@ -19,7 +19,7 @@ $(document).ready(function(){
 
   
   $(document).ready(function(){
-    const myTimeout = setTimeout(Writing, 5000);
+    const myTimeout = setTimeout(Writing, 1500);
   
     function Writing() {
       document.getElementById("start").innerHTML = "start"

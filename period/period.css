@@ -82,17 +82,10 @@ h2{
 }
 
 
-h2:hover{
-    text-decoration: underline;
-    text-decoration-color: #D9D9D9;
-    text-underline-offset: 2px;
-}
-
 
 a{
     text-decoration: none;
 }
-
 
 b{
     font-family: Helvetica, sans-serif;

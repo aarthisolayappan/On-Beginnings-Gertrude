@@ -16,12 +16,12 @@ $(document).ready(function(){
 })
 
 $(document).ready(function(){
-  let counter = 1;
+  let counter = 0;
 
   $(".box1").click(function(){
     counter++;
-    console.log("div:nth-child(" + counter + ")");
-    $("div:nth-child(" + counter + ")").css("opacity", "1");
+    console.log("h1:nth-child(" + counter + ")");
+    $("h1:nth-child(" + counter + ")").css("opacity", "1");
     });
 })
 
@@ -103,7 +103,7 @@ $(document).ready(function(){
 
 
 $(document).ready(function(){
-   let counter = 3;
+   let counter = 2;
 
     $(".box").click(function () {
     counter++;

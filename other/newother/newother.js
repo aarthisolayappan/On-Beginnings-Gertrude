@@ -10,7 +10,7 @@ $(document).ready(function() {
 })
 
 $(document).ready(function(){
-   let counter = 5;
+   let counter = 2;
 
     $(".box").click(function () {
     counter++;
