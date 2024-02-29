@@ -133,16 +133,24 @@ h3:nth-of-type(15){
 
 
 
+.flexnav{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    height: 100vh;
+    left: 78vw;
+    top: 5vh;
+    z-index: 100;
+    text-align: center;
+}
+
+
 .box{
     font-family: "adelle-sans", sans-serif;
     font-size: 10rem;
     text-align: center;  
     color: #D9D9D9;
-    border-radius: 12px;
-    top: 7vh;
-    left: 80vw;
-    position: fixed;   
-    z-index: 100;
 }
 
 .box:hover{
@@ -157,12 +165,9 @@ h3:nth-of-type(15){
     font-size: 9.5rem;
     text-align: center;  
     color: #D9D9D9;
-    border-radius: 12px;
-    top: 15vh;
-    left: 81.5vw;
-    position: fixed;   
-    z-index: 100;
     font-weight: 600;
+    margin-top: -13vh;
+
 }
 
 .box1:hover{
@@ -176,13 +181,9 @@ h3:nth-of-type(15){
     font-family: "adelle-sans", sans-serif;
     font-size: 8.5rem;
     text-align: center;  
-    border-radius: 12px;
-    top: 27vh;
     color: #D9D9D9;
-    left: 81.5vw;
-    position: fixed;   
-    z-index: 100;
     font-weight: 600;
+    margin-top: -8vh;
 }
 
 .box2:hover{
@@ -196,12 +197,8 @@ h3:nth-of-type(15){
     font-size: 9rem;
     text-align: center;  
     color: #D9D9D9;
-    border-radius: 12px;
-    top: 42vh;
-    left: 80.2vw;
-    position: fixed;   
-    z-index: 100;
     font-weight: 600;
+    margin-top: -2vh;
 }
 
 .box3:hover{
@@ -215,12 +212,8 @@ h3:nth-of-type(15){
     font-size: 8.4rem;
     text-align: center;  
     color: #D9D9D9;
-    border-radius: 12px;
-    top: 60vh;
-    left: 80.5vw;
-    position: fixed;   
-    z-index: 100;
     font-weight: 600;
+    margin-top: -1vh;
 }
 
 .box4:hover{
@@ -234,12 +227,8 @@ h3:nth-of-type(15){
     font-size: 9rem;
     text-align: center;  
     color: #D9D9D9;
-    border-radius: 12px;
-    top: 69vh;
-    left: 80.5vw;
-    position: fixed;   
-    z-index: 100;
     font-weight: 600;
+    margin-top: -8vh;
 }
 
 a{
@@ -251,4 +240,105 @@ a:hover{
     color: transparent;
     -webkit-text-stroke-color: #D9D9D9;
     -webkit-text-stroke-width: 1px;    
+}
+
+
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 768px) {
+
+    #circularcursor {
+        height:20px;
+        width:20px;
+      }
+    
+
+    h1{
+        font-size: 9rem;
+    }
+    
+    
+    h3{
+        font-size: 0.8rem;
+        font-weight: 100;
+        margin-right: 40vw;
+        top: 9vh;
+        line-height: 1rem;
+    }
+
+    
+    .h3b{
+        font-size: 1.2rem;
+        line-height: 1.4rem;
+        top: 9vh;
+        margin-left: 9vw;
+    }
+    
+    h3:nth-of-type(2){
+        margin-top: 9.7vh;
+    }
+
+    .flexnav{
+        top: 2vh;
+    }
+
+    
+    .box{
+        font-family: "adelle-sans", sans-serif;
+        font-size: 6rem;
+        color: #D9D9D9;
+        z-index: 100;
+        margin-top: 2vh;
+    }
+
+    
+    .box1{
+        font-family: "adelle-sans", sans-serif;
+        font-size: 6rem;
+        text-align: center;  
+        color: #D9D9D9;
+        z-index: 100;
+        margin-top: -8.7vh;
+        font-weight: 600;
+    }
+    
+    
+    .box2{
+        font-family: "adelle-sans", sans-serif;
+        font-size: 5.2rem;
+        text-align: center;  
+        color: #D9D9D9;
+        z-index: 100;
+        font-weight: 600;
+        margin-top: -4.5vh;
+    }
+    
+    
+    .box3{
+        font-family: "adelle-sans", sans-serif;
+        font-size: 5rem;
+        text-align: center;  
+        color: #D9D9D9;
+        margin-top: 0vh;
+        z-index: 100;
+        font-weight: 600;
+    }
+
+    .box4{
+        font-family: "adelle-sans", sans-serif;
+        font-size: 5rem;
+        text-align: center;  
+        color: #D9D9D9;
+        font-weight: 600;
+        margin-top: 1vh;
+    }
+
+    
+    .box5{
+        font-family: "adelle-sans", sans-serif;
+        font-size: 5rem;
+        text-align: center;  
+        color: #D9D9D9;
+        font-weight: 600;
+        margin-top: -3vh;
+    }
 }

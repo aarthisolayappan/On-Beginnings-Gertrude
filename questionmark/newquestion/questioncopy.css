@@ -48,7 +48,7 @@ h3{
     color: black;
     margin-left: 10vw;
     margin-right: 50vw;
-    top: 9vh;
+    top: 11vh;
     line-height: 1.6rem;
     margin-top: 3.4vh;
     text-align: left;
@@ -73,7 +73,7 @@ h3{
     font-size: 2.4rem;
     line-height: 2.7rem;
     width: 57vw;
-    top: 7vh;
+    top: 11vh;
     margin-left: 7vw;
     position: sticky;
     /* font-weight: 400; */
@@ -88,28 +88,22 @@ h3:nth-of-type(13){
     margin-bottom: 80vh;
 }
 
-/* 
-.h3b{
-    background-color: #FF4D00;
-} */
 
-  @keyframes blink-animation {
-    to {
-      visibility: hidden;
-    }
+.flexnav{
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    position: fixed;
+    height: 100vh;
+    left: 78vw;
+    top: 5vh;
 }
 
 .box{
     font-family: "adelle-sans", sans-serif;
     font-size: 10rem;
-    text-align: center;  
     color: #FF4D00;
-    border-radius: 12px;
-    top: 7vh;
-    left: 80vw;
-    position: fixed;   
     z-index: 100;
-    /* animation: blink-animation 2s steps(5, start) infinite; */
 }
 
 .box:hover{
@@ -118,17 +112,11 @@ h3:nth-of-type(13){
     -webkit-text-stroke-width: 1px;    
 }
 
-
-
 .box1{
     font-family: "adelle-sans", sans-serif;
     font-size: 7rem;
     text-align: center;  
     color: #FF4D00;
-    border-radius: 12px;
-    top: 25vh;
-    left: 81vw;
-    position: fixed;   
     z-index: 100;
     font-weight: 600;
 }
@@ -144,11 +132,7 @@ h3:nth-of-type(13){
     font-family: "adelle-sans", sans-serif;
     font-size: 8.2rem;
     text-align: center;  
-    border-radius: 12px;
-    top: 38vh;
     color: #FF4D00;
-    left: 80.5vw;
-    position: fixed;   
     z-index: 100;
     font-weight: 600;
 }
@@ -164,36 +148,11 @@ h3:nth-of-type(13){
     font-size: 8.6rem;
     text-align: center;  
     color: #FF4D00;
-    border-radius: 12px;
-    top: 47.5vh;
-    left: 80.5vw;
-    position: fixed;   
+    margin-top: -5vh;
     z-index: 100;
     font-weight: 600;
 }
 
-
-/* .go{
-    outline: solid;
-    outline-width: 1.2px;
-    outline-color: #FF4D00;
-    border-radius: 12px;
-    position: relative;
-    text-align: center;
-    width: max-content;
-    margin: auto;
-
-}
-
-
-.go:hover{
-   background-color: #FF4D00; 
-} */
-
-/* 
-.box:hover{
-    background: #FF4D00;
-} */
 
 a{
     text-decoration: none;
@@ -207,6 +166,82 @@ a:hover{
 }
 
 
+@media only screen and (min-device-width: 414px) and (max-device-width: 768px) {
+
+    #circularcursor {
+        height:20px;
+        width:20px;
+      }
+    
+
+    h1{
+        font-size: 9rem;
+    }
+    
+    
+    h3{
+        font-size: 0.8rem;
+        font-weight: 100;
+        margin-right: 40vw;
+        top: 9vh;
+        line-height: 1rem;
+    }
+
+    
+    .h3b{
+        font-size: 1.2rem;
+        line-height: 1.4rem;
+        top: 9vh;
+        margin-left: 9vw;
+    }
+    
+    
+    .flexnav{
+        top: 2vh;
+    }
+
+    
+    .box{
+        font-family: "adelle-sans", sans-serif;
+        font-size: 6rem;
+        color: #FF4D00;
+        z-index: 100;
+        margin-top: 2vh;
+    }
+
+    
+    .box1{
+        font-family: "adelle-sans", sans-serif;
+        font-size: 4rem;
+        text-align: center;  
+        color: #FF4D00;
+        z-index: 100;
+        margin-top: -2.2vh;
+        font-weight: 600;
+    }
+    
+    
+    .box2{
+        font-family: "adelle-sans", sans-serif;
+        font-size: 5rem;
+        text-align: center;  
+        color: #FF4D00;
+        z-index: 100;
+        font-weight: 600;
+    }
+    
+    
+    .box3{
+        font-family: "adelle-sans", sans-serif;
+        font-size: 5rem;
+        text-align: center;  
+        color: #FF4D00;
+        margin-top: -5vh;
+        z-index: 100;
+        font-weight: 600;
+    }
+
+}
 
 
 /* h3{
