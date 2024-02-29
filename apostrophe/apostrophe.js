@@ -10,7 +10,7 @@ $(document).ready(function() {
 })
 
 $(document).ready(function(){
-  const myTimeout = setTimeout(Reading, 2000);
+  const myTimeout = setTimeout(Reading, 1000);
 
   function Reading() {
     document.getElementById("show").innerHTML = "if you're ready, start reading"

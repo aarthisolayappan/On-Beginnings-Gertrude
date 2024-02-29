@@ -26,7 +26,7 @@ $(document).ready(function(){
 })
 
 $(document).ready(function(){
-  let counter = 1;
+  let counter = 7;
 
   $(".box1").click(function(){
     counter++;

@@ -65,7 +65,7 @@ h3{
 }
 
 .front{
-    z-index: 150;
+    z-index: 101;
 }
 
 .h3bold{
@@ -107,8 +107,6 @@ h3:nth-of-type(9){
     margin-right: 0vw;
     margin-left: 1vw;
     top: -7vh;
-    -webkit-text-stroke-color: #FF4D00;
-    -webkit-text-stroke-width: 3px;    
 }
 
 
@@ -120,7 +118,7 @@ h3:nth-of-type(9){
     height: 100vh;
     left: 78vw;
     top: 5vh;
-    z-index: 100;
+    z-index: 120;
     text-align: center;
 }
 
@@ -206,7 +204,7 @@ a:hover{
     width: 100vw;
     position: fixed;
   }
-
+/* 
   .ball{
     width: 100px;
     height: 100px;
@@ -235,15 +233,29 @@ a:hover{
     100% {
       left: 100vw;
     }
-  }
+  } */
 
 
 
   @media only screen and (min-device-width: 414px) and (max-device-width: 768px) {
 
 
+    .flex{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;        
+        width: 100vw;
+        position: fixed;
+        margin-left: 15vw;
+        margin-top: 7vh;
+        z-index: 41;
+        column-gap: 10vw;
+    }
+
+    
     h1{
-        font-size: 5rem;
+        font-size: 12rem;
+        line-height: 12.5rem;
     }
 
 
@@ -261,7 +273,7 @@ a:hover{
         line-height: 1.4rem;
         top: 9vh;
         margin-left: 9vw;
-        width: 52vw;
+        width: 56vw;
     }
     
     h3:nth-of-type(2){
@@ -269,6 +281,11 @@ a:hover{
     }
 
 
+    h3:nth-of-type(9){
+        left: 17vw;
+        top: 25vh;
+        font-size: 20rem; 
+    }
     
     .flexnav{
         top: 2vh;
@@ -279,7 +296,7 @@ a:hover{
         font-family: "adelle-sans", sans-serif;
         font-size: 6rem;
         color: #FF4D00;
-        z-index: 120;
+        z-index: 100;
         margin-top: 2vh;
     }
 

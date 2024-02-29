@@ -83,21 +83,28 @@ h3:nth-of-type(14){
 }
 
 
+.flexnav{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    height: 100vh;
+    left: 78vw;
+    top: 5vh;
+    z-index: 120;
+    text-align: center;
+}
+
+
 .box{
     font-family: "adelle-sans", sans-serif;
     font-size: 10rem;
     text-align: center;  
     color: #FF4D00;
-    border-radius: 12px;
-    top: 7vh;
-    left: 80vw;
-    position: fixed;   
-    z-index: 100;
-    /* animation: blink-animation 2s steps(5, start) infinite; */
 }
 
 .box:hover{
-    color: #D9D9D9;
+    color: transparent;
     -webkit-text-stroke-color: #FF4D00;
     -webkit-text-stroke-width: 1px;    
 }
@@ -105,19 +112,16 @@ h3:nth-of-type(14){
 
 .box1{
     font-family: "adelle-sans", sans-serif;
-    font-size: 9rem;
+    font-size: 9.5rem;
     text-align: center;  
     color: #FF4D00;
-    border-radius: 12px;
-    top: 25vh;
-    left: 81.8vw;
-    position: fixed;   
-    z-index: 100;
     font-weight: 600;
+    margin-top: -3.4vh;
+
 }
 
 .box1:hover{
-    color: #D9D9D9;
+    color: transparent;
     -webkit-text-stroke-color: #FF4D00;
     -webkit-text-stroke-width: 1px;    
 }
@@ -125,34 +129,26 @@ h3:nth-of-type(14){
 
 .box2{
     font-family: "adelle-sans", sans-serif;
-    font-size: 8rem;
+    font-size: 8.5rem;
     text-align: center;  
-    border-radius: 12px;
-    top: 37.5vh;
     color: #FF4D00;
-    left: 80.5vw;
-    position: fixed;   
-    z-index: 100;
     font-weight: 600;
+    margin-top: -8vh;
 }
 
 .box2:hover{
-    color: #D9D9D9;
+    color: transparent;
     -webkit-text-stroke-color: #FF4D00;
     -webkit-text-stroke-width: 1px;    
 }
 
 .box3{
     font-family: "adelle-sans", sans-serif;
-    font-size: 8.7rem;
+    font-size: 9rem;
     text-align: center;  
     color: #FF4D00;
-    border-radius: 12px;
-    top: 47.5vh;
-    left: 80.5vw;
-    position: fixed;   
-    z-index: 100;
     font-weight: 600;
+    margin-top: -8vh;
 }
 
 a{
@@ -188,6 +184,101 @@ marquee {
     z-index: 99;
     opacity: 0;
 }
+
+
+
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 768px) {
+
+    
+    h1{
+        font-size: 12rem;
+        line-height: 12.5rem;
+    }
+
+
+    h3{
+        font-size: 0.8rem;
+        font-weight: 100;
+        margin-right: 40vw;
+        top: 9vh;
+        line-height: 1rem;
+    }
+
+    
+    .h3b{
+        font-size: 1.2rem;
+        line-height: 1.4rem;
+        top: 9vh;
+        margin-left: 9vw;
+        width: 56vw;
+    }
+    
+    h3:nth-of-type(2){
+        margin-top: 9vh;
+    }
+
+    
+    .flexnav{
+        top: 2vh;
+    }
+
+    
+    .box{
+        font-family: "adelle-sans", sans-serif;
+        font-size: 6rem;
+        color: #FF4D00;
+        z-index: 100;
+        margin-top: 2vh;
+    }
+
+    
+    .box1{
+        font-family: "adelle-sans", sans-serif;
+        font-size: 5.2rem;
+        text-align: center;  
+        color: #FF4D00;
+        z-index: 100;
+        margin-top: -2vh;
+        font-weight: 600;
+    }
+    
+    
+    .box2{
+        font-family: "adelle-sans", sans-serif;
+        font-size: 5rem;
+        text-align: center;  
+        color: #FF4D00;
+        z-index: 100;
+        font-weight: 600;
+        margin-top: -4.3vh;
+    }
+    
+    
+    .box3{
+        font-family: "adelle-sans", sans-serif;
+        font-size: 5.2rem;
+        text-align: center;  
+        color: #FF4D00;
+        margin-top: -4vh;
+        z-index: 100;
+        font-weight: 600;
+    }
+
+    marquee {
+        font-family:  "adelle-sans", sans-serif;
+        font-size: 50rem;
+        color: #cccccc;
+        /* margin-top: 17.4vh; */
+        overflow: hidden;
+        position: fixed;
+        top: 12vh;
+        animation: scroll-left 6s linear infinite;
+        z-index: 99;
+        opacity: 0;
+    }
+    
+  }
 
 
 /* 
