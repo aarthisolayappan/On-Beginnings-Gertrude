@@ -212,7 +212,7 @@ h1{
 
 @keyframes sslide {
     0% { transform: translateX(0); }
-    100%   { transform: translateX(25vh); }
+    100%   { transform: translateX(99%); }
   }
 
 .item2{
@@ -241,7 +241,7 @@ h1{
 
 @keyframes fslide {
     0% { transform: translateX(0); }
-    100%   { transform: translateY(-79vw); }
+    100%   { transform: translateY(-350px); }
   }
 
 .item5{
