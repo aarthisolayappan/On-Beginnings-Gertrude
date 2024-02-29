@@ -18,7 +18,7 @@ $(document).ready(function(){
 
 
 $(document).ready(function(){
-   let counter = 8;
+   let counter = 1;
 
     $(".box").click(function () {
     counter++;
