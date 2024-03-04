@@ -84,7 +84,7 @@ h3:nth-of-type(2){
     margin-top: 9vh;
 }
 
-h3:nth-of-type(13){
+h3:nth-of-type(14){
     margin-bottom: 80vh;
 }
 
@@ -97,6 +97,7 @@ h3:nth-of-type(13){
     height: 100vh;
     left: 78vw;
     top: 5vh;
+    z-index: 100;
 }
 
 .box{
