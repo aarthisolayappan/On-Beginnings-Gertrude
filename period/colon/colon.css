@@ -30,10 +30,10 @@ html{
 .flex{
     display: flex;
     flex-direction: row;
-    width: 80vw;
+    width: 100vw;
     position: fixed;
     gap: 3vw;
-    margin-left: 23vw;
+    margin-left: 18vw;
     margin-top: 6vh;
     z-index: 41;
 }
@@ -244,9 +244,9 @@ a:hover{
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;        
-        width: 100vw;
+        width: 80vw;
         position: fixed;
-        margin-left: 15vw;
+        margin-left: 18vw;
         margin-top: 7vh;
         z-index: 41;
         column-gap: 10vw;
