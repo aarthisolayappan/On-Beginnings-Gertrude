@@ -30,10 +30,10 @@ html{
 .flex{
     display: flex;
     flex-direction: row;
-    width: 100vw;
+    width: 80vw;
     position: fixed;
     gap: 3vw;
-    margin-left: 18vw;
+    margin-left: 23vw;
     margin-top: 6vh;
     z-index: 41;
 }
