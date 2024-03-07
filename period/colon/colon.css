@@ -244,7 +244,7 @@ a:hover{
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;        
-        width: 80vw;
+        width: 70vw;
         position: fixed;
         margin-left: 18vw;
         margin-top: 7vh;
