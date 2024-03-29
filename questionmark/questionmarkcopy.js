@@ -61,7 +61,7 @@ $(document).ready(function(){
 
 
     var divs = document.getElementsByTagName('h1');
-    // get window width and height
+    // get window width and height (use let instead of var; var is more manipulative and let is restricted)
     var winWidth = window.innerWidth;
     var winHeight = window.innerHeight;
     
